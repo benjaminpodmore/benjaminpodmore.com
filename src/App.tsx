@@ -17,8 +17,8 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div>
+    <div className="h-screen flex flex-col items-center justify-center">
+      <div className="transform -translate-y-16">
         <div className="mb-4 text-center">
           <button onClick={() => setView('about')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300 mr-2">About</button>
           <button onClick={() => setView('projects')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300">Projects</button>
