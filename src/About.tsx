@@ -1,3 +1,5 @@
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { motion } from "framer-motion"
 
 const About = () => {
@@ -7,10 +9,23 @@ const About = () => {
         <p className="mb-6 text-center">
           I am a final year Software Engineering Student at UWA, interested in NLP, Cloud and IoT.
         </p>
-        <div className="text-center">
-          <button className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300">
-            More to come
-          </button>
+        <div className="flex items-center justify-center">
+          <a 
+            href="https://www.github.com/benjaminpodmore" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="rounded-md p-1 hover:text-blue-500 text-center inline-block text-xl w-8"
+          >
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/benjaminpodmore" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="rounded-md p-1 hover:text-blue-500 text-center inline-block text-xl w-8"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+          </a>
         </div>
         </motion.div>
     )

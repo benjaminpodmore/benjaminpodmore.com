@@ -20,8 +20,8 @@ function App() {
     <div className="h-screen flex flex-col items-center justify-center">
       <div className="transform -translate-y-16">
         <div className="mb-4 text-center">
-          <button onClick={() => setView('about')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300 mr-2">About</button>
-          <button onClick={() => setView('projects')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300">Projects</button>
+          <button onClick={() => setView('about')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300 mr-2 w-24">About</button>
+          <button onClick={() => setView('projects')} className="border rounded-md px-4 py-2 bg-gray-200 hover:bg-gray-300 w-24">Projects</button>
         </div>
         <div className="border-t border-b border-gray-200 py-6 max-w-md m-auto h-56 flex flex-col items-center justify-center">
           <AnimatePresence mode="wait">
