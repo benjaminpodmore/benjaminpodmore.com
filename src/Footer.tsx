@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="py-8 mt-8 border-gray-200">
         <div className="text-center">
           <p className="mb-2">Contact: benjaminpodmore@gmail.com</p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center space-x-2">
             <a 
               href="https://www.github.com/benjaminpodmore" 
               target="_blank" 

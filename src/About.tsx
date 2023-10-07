@@ -10,10 +10,11 @@ const About = () => {
         </div>
         <div className="flex-shrink-0 ml-4 w-40 md:w-64">
           <img 
-            src="portrait-min.jpg" 
+            src="portrait-min-zoom.jpg" 
             alt="Your Portrait" 
             className="shadow-md"
           />
+          <p className="text-center text-sm text-gray-600">A photo of me near Dwellingup <br/>(Western Australia)</p>
         </div>
       </div>
     </section>
