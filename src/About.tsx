@@ -8,7 +8,7 @@ const About = () => {
             Hello, I'm a recent grad from The University of Western Australia (UWA) with an interest in Cloud, IoT and ML.
           </p>
         </div>
-        <div className="flex-shrink-0 ml-4 w-40 md:w-56">
+        <div className="flex-shrink-0 ml-4 w-40 md:w-64">
           <img 
             src="portrait-min.jpg" 
             alt="Your Portrait" 
