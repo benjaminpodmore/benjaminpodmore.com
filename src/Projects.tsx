@@ -1,14 +1,13 @@
-import { motion } from "framer-motion"
-
 const Projects = () => {
-    return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
-        <h1 className="text-xl font-bold mb-4 text-center">Project List</h1>
-        <p className="mb-6 text-center">
-          Here you will be able to find a list of all the projects I have completed.
-        </p>
-        </motion.div>
-    )
+  return (
+    <section className="py-8 border-b border-gray-200">
+      <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+      <div className="mb-6">
+        <h3 className="text-xl font-medium mb-1">2021: NLP Honours</h3>
+        <p>I did my honours in NLP. It revolved around coreference resolution and being able to identify when an atecedent is too vague to resolve.</p>
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
