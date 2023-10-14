@@ -1,20 +1,20 @@
-import Header from './Header';
+import './App.css';
+import Navbar from './Navbar';
+import Landing from './Landing';
 import About from './About';
 import Projects from './Projects';
-import Footer from './Footer';
-import "./App.css"
+import Contact from './Contact'
 
-const App = () => {
-  return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-800 max-w-4xl mx-auto p-4">
-      <div className="flex-grow">
-        <Header />
-        <About />
-        <Projects />
-      </div>
-      <Footer />
-    </div>
-  );
+function App() {
+    return (
+        <div className="h-screen overflow-y-scroll snap-y snap-mandatory bg-gray-900 text-white">
+            <Navbar />
+            <Landing />
+            <About />
+            <Projects />
+            <Contact />
+        </div>
+    );
 }
 
 export default App;
